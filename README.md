@@ -1,8 +1,8 @@
 Step 1: create .env file  
 
 API_KEY=<your_api_key_here>  
-API_SECRET=<your_api_secret_here>
-ENDOR_NAMESPACE=<your_namespace>
+API_SECRET=<your_api_secret_here>  
+ENDOR_NAMESPACE=<your_namespace>  
 
 Step 2: run
 
@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 
 Step 3:
-If you want to download all packages from all projects execute:
+If you want to add tag to single project execute and it will prompt you for a project_uuid:
 ```
 python3 project_tags.py
 ```
