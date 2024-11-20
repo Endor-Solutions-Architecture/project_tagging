@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 
 Step 3:
-If you want to add tag to single project execute and it will prompt you for a project_uuid:
+If you want to add tags to single project execute and it will prompt you for a project_uuid:
 ```
 python3 project_tags.py
 ```
