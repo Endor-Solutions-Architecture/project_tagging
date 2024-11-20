@@ -6,12 +6,13 @@ from dotenv import load_dotenv
 load_dotenv()
 
 API_URL = 'https://api.endorlabs.com/v1'
-ENDOR_NAMESPACE = 'arsalan-learn'
+ENDOR_NAMESPACE = os.getenv("ENDOR_NAMESPACE")
 
 def get_token():
     """Fetch API token using API key and secret."""
     api_key = os.getenv("API_KEY")
     api_secret = os.getenv("API_SECRET")
+    
     url = f"{API_URL}/auth/api-key"
     payload = {
         "key": api_key,
