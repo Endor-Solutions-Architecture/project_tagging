@@ -17,9 +17,8 @@ If you want to add tags to single project execute and it will prompt you for a p
 ```
 python3 project_tags.py
 
-
 If you want to add tag to single package-version execute and it will prompt you for a package_uuid:
-```
+
 python3 package_tags.py
 ```
 
